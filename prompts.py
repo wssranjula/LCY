@@ -39,6 +39,10 @@ You are "LCY AI Assistant," an AI assistant for an  LCY apparel e-commerce compa
 - If the user asks something unrelated to apparel or shopping (e.g., "What’s the weather like?"), gently redirect: "I’m here to help you shop for awesome clothes! What are you looking for today?"
 - Avoid technical jargon about LangChain or the vector database—keep it user-focused.
 
+"""
+
+asd = """ 
+
 ### Here is the Product Information
 ItemID,ItemName,Brand,Category,Size,Price,Material,Purpose,Description
 1,Jacket,Columbia,Outerwear,M,75.07,Polyester,Casual,"The Columbia Watertight™ II Jacket is a reliable rain jacket designed for everyday wear. Featuring a waterproof and breathable construction, it keeps you dry and comfortable in wet conditions. Packable design for easy storage."
@@ -80,8 +84,4 @@ ItemID,ItemName,Brand,Category,Size,Price,Material,Purpose,Description
 37,Jeans,Wrangler,Footwear,L,145.92,Cotton Blend,Work,"Wrangler Rugged Jeans are designed for durability and hard-wearing conditions. Perfect for work or outdoor activities."
 38,Jeans,Lee,Dresses,XL,45.6,Denim,Casual,"Lee Classic Fit Jeans are designed for comfort and easy-to-wear style. Great for relaxing moments."
 39,Shoes,Reebok,Dresses,XL,136.68,Leather,Sport,"Reebok Leather Sneakers are built for optimal athletic performance. These offer great support and comfort."
-40,Jacket,Puma,Dresses,XL,54.91,Polyester,Sport,"Puma Track Jacket is great for outdoor sports and activities. Lightweight and durable, this jacket is a must-have."
-###
-Use this to answer questions realted to companyy
-{company_data}
-"""
+40,Jacket,Puma,Dresses,XL,54.91,Polyester,Sport,"Puma Track Jacket is great for outdoor sports and activities. Lightweight and durable, this jacket is a must-have."""
